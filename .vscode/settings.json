@@ -1,0 +1,10 @@
+{
+  "editor.fontSize": 13,
+  "terminal.integrated.fontSize": 20,
+  "workbench.colorTheme": "Default High Contrast Light",
+  "editor.fontLigatures": false,
+  "editor.minimap.enabled": false,
+  "indentRainbow.colors": []
+  // "editor.parameterHints.enabled": false,
+  // "editor.hover.enabled": false,
+}

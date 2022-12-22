@@ -1,0 +1,12 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .actions {
+        padding: 0 1rem;
+        gap: 1rem;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
