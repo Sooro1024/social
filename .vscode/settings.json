@@ -1,10 +1,15 @@
 {
-  "editor.fontSize": 13,
+  "editor.fontSize": 18,
   "terminal.integrated.fontSize": 20,
-  "workbench.colorTheme": "Default High Contrast Light",
+  "workbench.colorTheme": "Monokai",
   "editor.fontLigatures": false,
   "editor.minimap.enabled": false,
-  "indentRainbow.colors": []
+  "indentRainbow.colors": [],
+  "workbench.iconTheme": "vs-seti",
+  "workbench.preferredDarkColorTheme": "Monokai",
+  "workbench.preferredHighContrastColorTheme": "Monokai",
+  "workbench.preferredHighContrastLightColorTheme": "Monokai Dimmed",
+  "workbench.preferredLightColorTheme": "Monokai"
   // "editor.parameterHints.enabled": false,
   // "editor.hover.enabled": false,
 }

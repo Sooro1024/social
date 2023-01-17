@@ -5,6 +5,7 @@ import { useDispatch } from "react-redux";
 import { signUpAction } from "../../store/user/action";
 
 const SignUpCont = () => {
+  // console.log("SignUpCont.jsx")
   const dispatch = useDispatch();
 
   const history = useHistory();

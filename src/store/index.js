@@ -4,11 +4,11 @@ import { composeWithDevTools } from "@redux-devtools/extension";
 import axios from "axios";
 import userReducer from "./user/reducer";
 import { SIGN_OUT } from "./user/types";
-
+// console.log("Index-Store.jsx")
 const reducers = combineReducers({
   userReducer,
 });
-
+// console.log(userReducer)
 const networkProvider = axios.create({
   baseURL: "https://react120.herokuapp.com",
 });
@@ -52,3 +52,4 @@ export const store = createStore(
     applyMiddleware(thunk.withExtraArgument({ networkProvider }))
   )
 );
+// console.log(store)

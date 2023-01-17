@@ -1,24 +1,24 @@
-import React, { useCallback } from "react";
-import { Login } from "../../components/Login/Login";
-import { useHistory } from "react-router-dom";
-import { useDispatch } from "react-redux";
-import { signInAction } from "../../store/user/action";
+import React, { useCallback } from 'react'
+import { Login } from '../../components/Login/Login'
+import { useHistory } from 'react-router-dom'
+import { useDispatch } from 'react-redux'
+import { signInAction } from '../../store/user/action'
 
 const LoginCont = () => {
-  const dispatch = useDispatch();
+  const dispatch = useDispatch()
 
-  const history = useHistory();
+  const history = useHistory()
 
   const handleSubmit = useCallback(
     (form) => {
-      dispatch(signInAction(form, history));
+      dispatch(signInAction(form, history))
     },
-    [dispatch, history]
-  );
+    [dispatch, history],
+  )
 
   const handleCancel = useCallback(() => {
-    history.goBack();
-  }, [history]);
+    history.push('/sign-up')
+  }, [history])
 
   return (
     <div>
@@ -29,7 +29,7 @@ const LoginCont = () => {
         cancelText="Sign up"
       />
     </div>
-  );
-};
+  )
+}
 
-export default LoginCont;
+export default LoginCont
